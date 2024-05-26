@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #d4c2aa;
+}
+
+.wrapper {
+    width: 98%;  
+    margin: auto;
+    position: fixed;
+    background-color: #d4c2aa;
+    border-bottom: 1px solid #364f6b; 
+}
+
+.logo a {
+    align-items: center;
+    font-size: 70px;
+    font-weight: 500;
+    float: left;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    line-height: 85px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin: 50px;
+}
+
+.foto-membernya img {
+    padding: 8%;
+    margin-bottom: 0;
+}
+
+.band {
+    text-align: center;
+
+}
+
+.band .deskripsi {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0;
+}
+
+.deskripsi2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 100px;
+}
+
+.gambar-container {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.gambar {
+    width: 450px;
+    height: auto;
+}
+
+.gambar2 {
+    width: 470px;
+    height: auto;
+}
+
+.gambar-caption {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.image1-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.gambar1-container {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.gambar {
+    width: 450px;
+    height: auto;
+}
+
+.gambar-caption {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.gambar-caption2 {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+

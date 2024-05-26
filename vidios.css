@@ -1,0 +1,223 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #d4c2aa;
+}
+
+.wrapper {
+    width: 98%;  
+    margin: auto;
+    position: fixed;
+    background-color: #d4c2aa;
+    border-bottom: 1px solid #364f6b; 
+}
+
+.logo a {
+    align-items: center;
+    font-size: 70px;
+    font-weight: 500;
+    float: left;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    line-height: 85px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    justify-content: left;
+    margin-left: -100px;
+    padding: 190px;
+}
+
+.gambar-container {
+    text-align: center;
+    margin-right: 90px;
+}
+
+.gambar {
+    width: 380px;
+    height: auto;
+}
+
+.gambar-1 {
+    width: 390px;
+    height: 300px;
+}
+
+.play-button {
+    position: absolute;
+    top: 46%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    width: 50px; 
+    height: 50px; 
+    background: url('play_icon.png') center center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block; /* men bisa diklik */
+}
+
+.gambar-2 {
+    width: 390px;
+    height: 300px;
+}
+
+.play-button2 {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; 
+    height: 50px; 
+    background: url('play_icon.png') center center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block; 
+}
+
+
+.gambar-3 {
+    width: 390px;
+    height: 300px;
+}
+
+.play-button3 {
+    position: absolute;
+    top: 46%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    width: 50px; 
+    height: 50px; 
+    background: url('play_icon.png') center center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block; 
+}
+
+.gambar-caption {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.image2-container {
+    display: flex;
+    justify-content: left;
+    margin-left: 80px;
+    padding: 3vh;
+}
+
+.gambar2-container {
+    text-align: center;
+    margin-right: 90px;
+}
+
+.gambar2 {
+    width: 380px;
+    height: auto;
+}
+
+.play-button4 {
+    position: absolute;
+    top: 119%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    width: 50px; 
+    height: 50px; 
+    background: url('play_icon.png') center center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block; 
+}
+
+
+.gambar-4 {
+    width: 390px;
+    height: 300px;
+}
+
+.play-button5 {
+    position: absolute;
+    top: 119%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    width: 50px; 
+    height: 50px; 
+    background: url('play_icon.png') center center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block; 
+}
+
+.gambar-5 {
+    width: 390px;
+    height: 300px;
+}
+
+.play-button6 {
+    position: absolute;
+    top: 119%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px; 
+    background: url('play_icon.png') center center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block; 
+}
+
+.gambar2-caption {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
